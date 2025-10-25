@@ -114,6 +114,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
+   
 
 }
 .user-input{
@@ -130,6 +131,7 @@ body{
     box-sizing: 0px 0px 8px 0px black;
     box-sizing: border-box;
     margin: 5px;
+    align-self: center;
     /* perspective: 1000px; */
 }
 .delbtn{
@@ -175,4 +177,53 @@ input[type="checkbox"]{
 input[type="checkbox"]:checked~.user-text{
     text-decoration: line-through;
     color: gray;
+}
+@media (max-width:500px) {
+.logo-holder{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    margin-top: 60px;
+    position: relative;
+    text-align: center;
+    left: 25%;
+   
+}
+
+.logo::after{
+    content: 'time-pal';
+    position:inherit;
+    top: 3%;
+    right:49%;
+    opacity: 0.5;
+    text-align: center;
+    color: rgb(65, 12, 12);
+    
+}
+.container{
+   
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.form{
+  
+    position: relative;
+    width: 100%;
+    max-width: 550px;
+    padding: 10px;
+    padding-left: 10px;
+   
+}
 }
