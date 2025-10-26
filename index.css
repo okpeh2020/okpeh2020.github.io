@@ -226,4 +226,25 @@ input[type="checkbox"]:checked~.user-text{
     padding-left: 10px;
    
 }
+.text-enter{
+    padding: 8px;
+}
+.time-enter{
+    padding: 8px;
+      right:15%;
+}
+.addbtn{
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    right: 0.5%;
+}
+body{
+    width: 100%;
+    padding: 10px;.
+    
+}
+span{
+    right: 24%;
+}
 }
